@@ -1,0 +1,18 @@
+[package]
+name = "tenjava"
+version = "0.1.0"
+authors = ["Kyle Clemens <me@kyleclemens.com>"]
+
+build = "build.rs"
+
+[dependencies]
+clap = "2.11"
+dotenv = "0.8"
+error-chain = "0.5"
+serde = "0.8"
+serde_json = "0.8"
+serde_macros = "0.8"
+
+[build-dependencies]
+git2 = "0.4.3"
+rustc_version = "0.1.7"
